@@ -7,6 +7,7 @@ specifiers:
   postcss: ^8.2.13
   react: 17.0.2
   react-dom: 17.0.2
+  react-flip-move: ^3.0.4
   tailwind-scrollbar-hide: ^1.0.3
   tailwindcss: ^2.1.2
 
@@ -15,6 +16,7 @@ dependencies:
   next: 10.1.3_react-dom@17.0.2+react@17.0.2
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
+  react-flip-move: 3.0.4_react-dom@17.0.2+react@17.0.2
   tailwind-scrollbar-hide: 1.0.3
 
 devDependencies:
@@ -1786,6 +1788,16 @@ packages:
       object-assign: 4.1.1
       react: 17.0.2
       scheduler: 0.20.2
+    dev: false
+
+  /react-flip-move/3.0.4_react-dom@17.0.2+react@17.0.2:
+    resolution: {integrity: sha512-HyUVv9g3t/BS7Yz9HgrtYSWyRNdR2F81nkj+C5iRY675AwlqCLB5JU9mnZWg0cdVz7IM4iquoyZx70vzZv3Z8Q==}
+    peerDependencies:
+      react: '>=16.3.x'
+      react-dom: '>=16.3.x'
+    dependencies:
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
     dev: false
 
   /react-is/16.13.1:
