@@ -7,7 +7,7 @@ export default function Thumbnail({ result }) {
   return (
     <div
       className="p-2 group cursor-pointer transition duration-200
-     ease-in transform sm:hover:scale-105 hover:z-50"
+     ease-in transform sm:hover:scale-105 hover:z-50 xs:hover:scale-105 "
     >
       <Image
         src={
