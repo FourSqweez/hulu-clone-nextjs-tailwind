@@ -7,6 +7,7 @@ specifiers:
   postcss: ^8.2.13
   react: 17.0.2
   react-dom: 17.0.2
+  tailwind-scrollbar-hide: ^1.0.3
   tailwindcss: ^2.1.2
 
 dependencies:
@@ -14,6 +15,7 @@ dependencies:
   next: 10.1.3_react-dom@17.0.2+react@17.0.2
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
+  tailwind-scrollbar-hide: 1.0.3
 
 devDependencies:
   autoprefixer: 10.2.5_postcss@8.2.13
@@ -2072,6 +2074,10 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       has-flag: 4.0.0
+    dev: false
+
+  /tailwind-scrollbar-hide/1.0.3:
+    resolution: {integrity: sha512-BF+ITR3cJFFF8IP1B6snlZtwSJxwWIB030LX9ZGEITBfWiqn1V4rEJUF44HJH5w6hZBrqSlwJdhILya8OvWefg==}
     dev: false
 
   /tailwindcss/2.1.2_941a81a5c9afb5d3c8bce0db60f786b1:
